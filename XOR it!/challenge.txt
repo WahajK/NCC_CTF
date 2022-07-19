@@ -1,0 +1,7 @@
+key = "supersecretkey"
+
+#encryption scheme
+encrypted_flag = ''.join([chr(ord(flag[i]) ^ ord(key[i])) for i in range(len(flag))])
+
+#encoded flag
+=63\x1e\nC\x17<\nU\x064\x1dI\x01*AVGKWZA\x18
